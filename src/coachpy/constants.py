@@ -1,14 +1,36 @@
 import math
 
-# Wiskunde
+# Bron: Binas Tabel 7A - Natuurconstanten
+
+# --- Wiskunde ---
 PI = math.pi
 E = math.e
 
-# Natuurkunde (Standaardwaarden in SI-eenheden)
-G_VAL = 9.81  # Valversnelling op aarde (m/s^2)
-G_UNIV = 6.67430e-11  # Universele gravitatieconstante (N m^2 / kg^2)
-C = 299792458  # Lichtsnelheid (m/s)
-H = 6.62607015e-34  # Constante van Planck (J s)
-K_B = 1.380649e-23  # Boltzmannconstante (J/K)
-NA = 6.02214076e23  # Getal van Avogadro (mol^-1)
-R = 8.314462618  # Gasconstante (J / mol K)
+G_UNIV = GRAVITATIECONSTANTE = 6.67430e-11  # (N m^2 kg^-2)
+G_VAL = VALVERSNELLING = 9.81  # Gemiddeld in Nederland (m s^-2)
+P0 = STANDAARDDRUK = 1.01325e5  # (Pa)
+
+VM_273 = MOLAIR_VOLUME_273 = 2.241396854501e-2  # Ideaal gas bij T = 273,15 K en p = p0
+VM_298 = MOLAIR_VOLUME_298 = 2.445e-2  # Gasvormige stof bij T = 298 K en p = p0
+
+T0 = SMELTPUNT_IJS = 273.15  # (K) bij p = p0
+NA = CONSTANTE_VAN_AVOGADRO = 6.02214076e23  # (mol^-1)
+R = GASCONSTANTE = 8.31446261815324  # (J mol^-1 K^-1)
+KB = CONSTANTE_VAN_BOLTZMANN = 1.380649e-23  # (J K^-1)
+SIGMA = CONSTANTE_VAN_STEFAN_BOLTZMANN = 5.670374419e-8  # (W m^-2 K^-4)
+KW = CONSTANTE_VAN_WIEN = 2.897771955e-3  # (m K)
+H = CONSTANTE_VAN_PLANCK = 6.62607015e-34  # (J s)
+C = LICHTSNELHEID = 299792458  # (m s^-1)
+
+EPSILON_0 = ELEKTRISCHE_CONSTANTE = (
+    8.8541878128e-12  # Permittiviteit van vacuüm (F m^-1)
+)
+F_COULOMB = COULOMB_CONSTANTE = 8.987551792e9  # (N m^2 C^-2)
+MU_0 = MAGNETISCHE_PERMEABILITEIT = 1.25663706212e-6  # Van vacuüm (H m^-1)
+E_CHARGE = ELEMENTAIR_LADINGSQUANTUM = 1.602176634e-19  # (C)
+F_FARADAY = CONSTANTE_VAN_FARADAY = 9.648533212331e4  # (C mol^-1)
+
+A0 = ATOOMSTRAAL_H = 5.29177210903e-11  # Volgens Bohr (m)
+RH = RYDBERGCONSTANTE = 1.096775834e7  # Voor waterstof (m^-1)
+
+K_CD = LICHTOPBRENGST = 6.83e2  # (lm W^-1)

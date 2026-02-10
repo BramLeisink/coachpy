@@ -1,6 +1,6 @@
 [project]
 name = "coachpy"
-version = "0.1.0"
+version = "0.1.1"
 description = "Een modern Python-alternatief voor Coach7 voor natuurkundig modelleren in het onderwijs."
 readme = "README.md"
 authors = [

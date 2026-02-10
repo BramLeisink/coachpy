@@ -21,7 +21,7 @@ pip install coachpy
 
 ```
 
-## Voorbeeld: Een Vrije Val Modelleren
+## Voorbeeld: Een vallende bal modelleren
 
 Met CoachPy schrijf je natuurkundige modellen die leesbaar en transparant zijn.
 
@@ -29,7 +29,7 @@ Met CoachPy schrijf je natuurkundige modellen die leesbaar en transparant zijn.
 from coachpy import *
 
 # Initialiseer de simulatie
-sim = Simulation("Vrije val met CoachPy")
+sim = Simulation("Vallende bal met CoachPy")
 
 # Metadata instellen (labels en eenheden)
 sim.set_metadata("t", unit="s", label="Tijd")

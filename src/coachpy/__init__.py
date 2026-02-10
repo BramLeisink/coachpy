@@ -1,8 +1,6 @@
 from typing import Any, Dict, List
 import matplotlib.pyplot as plt
 
-__version__ = "0.1.0"
-
 
 class Simulation:
     """

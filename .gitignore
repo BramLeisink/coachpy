@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Distribution
+build/
+dist/
+*.egg-info/
+wheels/
+
+# Coverage
+htmlcov/
+.coverage
+.pytest_cache/
+
+# Virtual env
+.venv/
+
+# uv
+.uv/
+uv.lock
+
+# Tests
+tests/

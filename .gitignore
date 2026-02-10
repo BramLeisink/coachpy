@@ -23,3 +23,5 @@ uv.lock
 
 # Tests
 tests/
+
+main.py
